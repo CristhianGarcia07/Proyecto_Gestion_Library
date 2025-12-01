@@ -1,12 +1,14 @@
-# Ignorar archivos que no pertenecen al proyecto de biblioteca
-*.py
-!src/*.py
-!.gitignore
-*.json
-!src/*.json
-
-# Ignorar archivos temporales
+# Ignorar archivos Python compilados
 __pycache__/
-*.log
+*.pyc
+
+# Ignorar entornos virtuales
+venv/
+.env/
+
+# Ignorar configuraciones locales
 .vscode/
-.env
+*.log
+
+# PERMITIR TODOS LOS .py DEL PROYECTO
+!*.py
