@@ -1,0 +1,12 @@
+# Ignorar archivos que no pertenecen al proyecto de biblioteca
+*.py
+!src/*.py
+!.gitignore
+*.json
+!src/*.json
+
+# Ignorar archivos temporales
+__pycache__/
+*.log
+.vscode/
+.env
